@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		362B91D7259AAD2E0047FDFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B91D6259AAD2E0047FDFD /* AppDelegate.swift */; };
 		362B91D9259AAD2E0047FDFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B91D8259AAD2E0047FDFD /* SceneDelegate.swift */; };
-		362B91DB259AAD2E0047FDFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B91DA259AAD2E0047FDFD /* ViewController.swift */; };
+		362B91DB259AAD2E0047FDFD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B91DA259AAD2E0047FDFD /* DetailViewController.swift */; };
 		362B91DE259AAD2E0047FDFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362B91DC259AAD2E0047FDFD /* Main.storyboard */; };
 		362B91E0259AAD320047FDFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362B91DF259AAD320047FDFD /* Assets.xcassets */; };
 		362B91E3259AAD320047FDFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362B91E1259AAD320047FDFD /* LaunchScreen.storyboard */; };
 		362B91EE259AAD330047FDFD /* AboutMeWithSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B91ED259AAD330047FDFD /* AboutMeWithSegueTests.swift */; };
 		362B91F9259AAD330047FDFD /* AboutMeWithSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B91F8259AAD330047FDFD /* AboutMeWithSegueUITests.swift */; };
+		36DA1FD5259AB3AB007F0CDB /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA1FD4259AB3AB007F0CDB /* PersonController.swift */; };
+		36DA1FDA259AB42F007F0CDB /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA1FD9259AB42F007F0CDB /* PersonTableViewController.swift */; };
+		36DA1FDF259AB675007F0CDB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA1FDE259AB675007F0CDB /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		362B91D3259AAD2E0047FDFD /* AboutMeWithSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMeWithSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		362B91D6259AAD2E0047FDFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		362B91D8259AAD2E0047FDFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		362B91DA259AAD2E0047FDFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362B91DA259AAD2E0047FDFD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		362B91DD259AAD2E0047FDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		362B91DF259AAD320047FDFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		362B91E2259AAD320047FDFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		362B91F4259AAD330047FDFD /* AboutMeWithSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeWithSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		362B91F8259AAD330047FDFD /* AboutMeWithSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeWithSegueUITests.swift; sourceTree = "<group>"; };
 		362B91FA259AAD330047FDFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA1FD4259AB3AB007F0CDB /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		36DA1FD9259AB42F007F0CDB /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		36DA1FDE259AB675007F0CDB /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,8 @@
 			children = (
 				362B91D6259AAD2E0047FDFD /* AppDelegate.swift */,
 				362B91D8259AAD2E0047FDFD /* SceneDelegate.swift */,
-				362B91DA259AAD2E0047FDFD /* ViewController.swift */,
+				36FBC14F259BB0D600B63410 /* Model */,
+				36FBC150259BB0F700B63410 /* Controller */,
 				362B91DC259AAD2E0047FDFD /* Main.storyboard */,
 				362B91DF259AAD320047FDFD /* Assets.xcassets */,
 				362B91E1259AAD320047FDFD /* LaunchScreen.storyboard */,
@@ -126,6 +133,24 @@
 				362B91FA259AAD330047FDFD /* Info.plist */,
 			);
 			path = AboutMeWithSegueUITests;
+			sourceTree = "<group>";
+		};
+		36FBC14F259BB0D600B63410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36DA1FDE259AB675007F0CDB /* Person.swift */,
+				36DA1FD4259AB3AB007F0CDB /* PersonController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		36FBC150259BB0F700B63410 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				36DA1FD9259AB42F007F0CDB /* PersonTableViewController.swift */,
+				362B91DA259AAD2E0047FDFD /* DetailViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				362B91DB259AAD2E0047FDFD /* ViewController.swift in Sources */,
+				36DA1FDF259AB675007F0CDB /* Person.swift in Sources */,
+				36DA1FDA259AB42F007F0CDB /* PersonTableViewController.swift in Sources */,
+				36DA1FD5259AB3AB007F0CDB /* PersonController.swift in Sources */,
+				362B91DB259AAD2E0047FDFD /* DetailViewController.swift in Sources */,
 				362B91D7259AAD2E0047FDFD /* AppDelegate.swift in Sources */,
 				362B91D9259AAD2E0047FDFD /* SceneDelegate.swift in Sources */,
 			);
